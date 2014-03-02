@@ -1,0 +1,7 @@
+== README
+This is rails 4 project, which uses a Mysql database.
+
+The goal of this mini project is to transfer data from a csv file to Mysql database, using rake task command-- rake import.
+This method is compared to the method, that uses Load data infile command, which is available in the repo "veredb/Load data infile".
+
+The conclusion is that Load data infile command runs more than a 100 times faster, than rake import, for small csv files.
